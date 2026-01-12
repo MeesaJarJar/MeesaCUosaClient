@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <releases>
-	<release name="MeesaCUO_2026.01.12.1724" version="2026.01.12.1724">
+	<release name="MeesaCUO_2026.01.12.1727" version="2026.01.12.1727">
 		<files>
 			<file filename=".gitattributes" hash="05bdb783ee6514c8c072e47680af8ff7" />
 			<file filename="ClassicUO.Assets.dll" hash="1002c6ed4d1ed1196fd6832fdea2aa4b" />
@@ -22,6 +22,12 @@
 			<file filename="FNA.dll.config" hash="a783503c99a2f0add408965cbdf0de21" />
 			<file filename="FNA.pdb" hash="cf8b42fb916e71afea45c312e23af7eb" />
 			<file filename="FNA3D.dll" hash="afbed79f3f68c5a30bc71409cbf70594" />
+			<file filename="Launcher.deps.json" hash="20cf424f11802568d8d0c79740ed3f8e" />
+			<file filename="Launcher.dll" hash="41be732e18337df651cdb0f2100366ac" />
+			<file filename="Launcher.exe" hash="d00d17a92e61696f5805e7b400f742c0" />
+			<file filename="Launcher.pdb" hash="3a432c7b476a792620b4984a74ca29c9" />
+			<file filename="Launcher.runtimeconfig.json" hash="6cc5992b5f24e3ff259ff61441f0bce9" />
+			<file filename="launcher_settings.json" hash="bc2ff606f218250b36b0ab0cf3b77944" />
 			<file filename="libtheorafile.dll" hash="20cb361c6d30bc815f16483ee0729024" />
 			<file filename="MP3Sharp.dll" hash="0ec944fb2193a0c37ac429573283de65" />
 			<file filename="MP3Sharp.pdb" hash="f6cd66f1a1eb25227a000d535566ebeb" />
