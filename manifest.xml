@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<releases>
+	<release name="MeesaCUO_2026.01.12.1645" version="2026.01.12.1645">
+		<files>
+			<file filename="ClassicUO.Assets.dll" hash="c7806cb2fc53a912a80ddc9af68293d9" />
+			<file filename="ClassicUO.Assets.pdb" hash="8f01ba70bc46e248cb41a1bccd83ccda" />
+			<file filename="ClassicUO.IO.dll" hash="54a6c9562b6146e680785b0220dd59e2" />
+			<file filename="ClassicUO.IO.pdb" hash="cd3649a5be39a14e388b581d1f48780a" />
+			<file filename="ClassicUO.Renderer.dll" hash="4182209205da2c4e6cdabf98acfb21f4" />
+			<file filename="ClassicUO.Renderer.pdb" hash="be51e36249f028f1e1648e46badbdd72" />
+			<file filename="ClassicUO.Utility.dll" hash="a37a849f1358c70ef854af33ee644101" />
+			<file filename="ClassicUO.Utility.pdb" hash="5f3ad62e14413378f2ca38b89f24b040" />
+			<file filename="cuo.deps.json" hash="4e44158130d813c6e7e5a9de579383c6" />
+			<file filename="cuo.dll" hash="6de1f8b981ee492a11e1dbd4622fa073" />
+			<file filename="cuo.exe" hash="3ce6a0c30a85e7a11244349f3c49673e" />
+			<file filename="cuo.pdb" hash="108db3f492d6918f94dcccf3f3e4ac6f" />
+			<file filename="cuo.runtimeconfig.json" hash="833ce8f948b15b08c080740afdb03ebb" />
+			<file filename="cuoapi.dll" hash="2fbd9d072eefed8adc2f24e89ff71929" />
+			<file filename="FAudio.dll" hash="9eaf1b8ff0eec499fcdf04b523afd69c" />
+			<file filename="FNA.dll" hash="18cdf58c792abbdf183f6f0412d4879f" />
+			<file filename="FNA.dll.config" hash="a783503c99a2f0add408965cbdf0de21" />
+			<file filename="FNA.pdb" hash="cb899e34d41e2917810f48c8b943cf01" />
+			<file filename="FNA3D.dll" hash="afbed79f3f68c5a30bc71409cbf70594" />
+			<file filename="libtheorafile.dll" hash="20cb361c6d30bc815f16483ee0729024" />
+			<file filename="MP3Sharp.dll" hash="518b4b2fb7ec60626f4aceefdae6fa48" />
+			<file filename="MP3Sharp.pdb" hash="2fe2387b7b7244cba414966e072e2097" />
+			<file filename="SDL3.dll" hash="df33c94a9bdc9a2d484f2405e289e6d6" />
+			<file filename="SixLabors.ImageSharp.dll" hash="81fb18a837f65e1813859411064e3f0c" />
+			<file filename="zlib.dll" hash="12180b59e1828516e42f801d25e48968" />
+		</files>
+	</release>
+</releases>
