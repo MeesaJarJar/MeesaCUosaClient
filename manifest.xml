@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <releases>
-	<release name="MeesaCUO_2026.01.12.1652" version="2026.01.12.1652">
+	<release name="MeesaCUO_2026.01.12.1724" version="2026.01.12.1724">
 		<files>
 			<file filename=".gitattributes" hash="05bdb783ee6514c8c072e47680af8ff7" />
 			<file filename="ClassicUO.Assets.dll" hash="1002c6ed4d1ed1196fd6832fdea2aa4b" />
