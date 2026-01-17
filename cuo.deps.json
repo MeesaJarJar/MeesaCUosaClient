@@ -21,7 +21,67 @@
           "cuo.dll": {}
         }
       },
+      "Microsoft.AI.DirectML/1.12.1": {},
       "Microsoft.DotNet.ILCompiler/9.0.11": {},
+      "Microsoft.ML.OnnxRuntime.DirectML/1.16.3": {
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.12.1",
+          "Microsoft.ML.OnnxRuntime.Managed": "1.16.3"
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm/native/onnxruntime.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "1.16.23.1119"
+          },
+          "runtimes/win-arm/native/onnxruntime.lib": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/onnxruntime.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.16.23.1119"
+          },
+          "runtimes/win-arm64/native/onnxruntime.lib": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/onnxruntime.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.16.23.1119"
+          },
+          "runtimes/win-x64/native/onnxruntime.lib": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/onnxruntime.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.16.23.1119"
+          },
+          "runtimes/win-x86/native/onnxruntime.lib": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ML.OnnxRuntime.Managed/1.16.3": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.ML.OnnxRuntime.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Microsoft.NET.ILLink.Tasks/9.0.11": {},
       "SixLabors.ImageSharp/3.1.11": {
         "runtime": {
@@ -31,10 +91,12 @@
           }
         }
       },
+      "System.Memory/4.5.5": {},
       "ClassicUO.Assets/1.0.0": {
         "dependencies": {
           "ClassicUO.IO": "1.0.0",
-          "ClassicUO.Utility": "1.0.0"
+          "ClassicUO.Utility": "1.0.0",
+          "Microsoft.ML.OnnxRuntime.DirectML": "1.16.3"
         },
         "runtime": {
           "ClassicUO.Assets.dll": {
@@ -120,12 +182,33 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AI.DirectML/1.12.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cmOKA3RSvmfgfmQ+WSlinlsLgZ747EzkXZAOK8Jh68KNXReA2KoRUQuU4IcSg3ts3vL+1L71EgRH7cbsxVcQuw==",
+      "path": "microsoft.ai.directml/1.12.1",
+      "hashPath": "microsoft.ai.directml.1.12.1.nupkg.sha512"
+    },
     "Microsoft.DotNet.ILCompiler/9.0.11": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-Odqp3vop0UYRcnhDSl+vLbKMqmR3S83UTGDtEonJ9I0NWMXijdhsD6rCC+IRodPIUZ7zXIFLzrT1gtJkAkOEIg==",
       "path": "microsoft.dotnet.ilcompiler/9.0.11",
       "hashPath": "microsoft.dotnet.ilcompiler.9.0.11.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.DirectML/1.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPdcWgktyVU3/VPmxy528zjqhDSTgFjuf5FqjWfvWAbvIxN0J8iBUrpfR1GO/KQ3Vpf707iWaGOVIxWF8yJkyw==",
+      "path": "microsoft.ml.onnxruntime.directml/1.16.3",
+      "hashPath": "microsoft.ml.onnxruntime.directml.1.16.3.nupkg.sha512"
+    },
+    "Microsoft.ML.OnnxRuntime.Managed/1.16.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w4uDtHgBvOQyJT51SndFZK2UiW7o4ecZOYFtvClJL0AqWXVtFGQBTA77Peb17AS1xMkjYoHV4uVyJRqEZYxZ3w==",
+      "path": "microsoft.ml.onnxruntime.managed/1.16.3",
+      "hashPath": "microsoft.ml.onnxruntime.managed.1.16.3.nupkg.sha512"
     },
     "Microsoft.NET.ILLink.Tasks/9.0.11": {
       "type": "package",
@@ -140,6 +223,13 @@
       "sha512": "sha512-JfPLyigLthuE50yi6tMt7Amrenr/fA31t2CvJyhy/kQmfulIBAqo5T/YFUSRHtuYPXRSaUHygFeh6Qd933EoSw==",
       "path": "sixlabors.imagesharp/3.1.11",
       "hashPath": "sixlabors.imagesharp.3.1.11.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "ClassicUO.Assets/1.0.0": {
       "type": "project",
