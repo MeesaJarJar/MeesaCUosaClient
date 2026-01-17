@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <releases>
-	<release name="MeesaCUO_2026.01.17.0032" version="2026.01.17.0032">
+	<release name="MeesaCUO_2026.01.17.1318" version="2026.01.17.1318">
 		<files>
-			<file filename="ClassicUO.Assets.dll" hash="21e172d532eaba17ead19195e84ed603" />
-			<file filename="ClassicUO.Assets.pdb" hash="36df6755a4264ea24336c603802d02a1" />
-			<file filename="ClassicUO.IO.dll" hash="172a7d0bb68146be3a6fe1d429004781" />
-			<file filename="ClassicUO.IO.pdb" hash="71fcc5222cea5c5ae4d9e06267020f05" />
-			<file filename="ClassicUO.Renderer.dll" hash="e59b0043d08da1d1796ff39e3aa03e3e" />
-			<file filename="ClassicUO.Renderer.pdb" hash="31af3ac030e142f7fc8acf459770c992" />
-			<file filename="ClassicUO.Utility.dll" hash="36abdf90367b553d30032bba5975a23f" />
-			<file filename="ClassicUO.Utility.pdb" hash="f2e80c7fffda05ac30526ba5454f4c9e" />
+			<file filename="ClassicUO.Assets.dll" hash="b9b9fcb549e45845f07594a56dcae76a" />
+			<file filename="ClassicUO.Assets.pdb" hash="30f707bc41c664282e28f5275dc6e895" />
+			<file filename="ClassicUO.IO.dll" hash="e0c5f1c5953233c87256df6642d065ef" />
+			<file filename="ClassicUO.IO.pdb" hash="ae2be53029aaaa98563e29ddbf22f9b7" />
+			<file filename="ClassicUO.Renderer.dll" hash="709e3321375bfb233574cc87718b7f68" />
+			<file filename="ClassicUO.Renderer.pdb" hash="0a870852536749fc00689b3291dcafb4" />
+			<file filename="ClassicUO.Utility.dll" hash="69c8ee7208e2d2e519fd572b727f2415" />
+			<file filename="ClassicUO.Utility.pdb" hash="d0fe7c5f81d935c7d7e30c43c6f3d557" />
 			<file filename="cuo.deps.json" hash="3270352a9b914058f9125544898a3e84" />
-			<file filename="cuo.dll" hash="810de59d82a34e21791dfb358b223595" />
-			<file filename="cuo.exe" hash="b19a0780c9df2ed07b2ec0b68a6f4021" />
-			<file filename="cuo.pdb" hash="7de26afcf23d245e7dd8244be94a7d7f" />
+			<file filename="cuo.dll" hash="f37acc077b6939ac7bed6df195755358" />
+			<file filename="cuo.exe" hash="ab56a2cbb8d7458a2a9d990f0bd3edbd" />
+			<file filename="cuo.pdb" hash="35f898e378558c900f0ad8798a1d7548" />
 			<file filename="cuo.runtimeconfig.json" hash="833ce8f948b15b08c080740afdb03ebb" />
 			<file filename="cuoapi.dll" hash="2fbd9d072eefed8adc2f24e89ff71929" />
 			<file filename="FAudio.dll" hash="9eaf1b8ff0eec499fcdf04b523afd69c" />
@@ -22,15 +22,15 @@
 			<file filename="FNA.pdb" hash="cf8b42fb916e71afea45c312e23af7eb" />
 			<file filename="FNA3D.dll" hash="afbed79f3f68c5a30bc71409cbf70594" />
 			<file filename="Launcher.deps.json" hash="20cf424f11802568d8d0c79740ed3f8e" />
-			<file filename="Launcher.dll" hash="276a3347cf5cd614da1651f37ef51943" />
-			<file filename="Launcher.exe" hash="d00d17a92e61696f5805e7b400f742c0" />
-			<file filename="Launcher.pdb" hash="c9998641c42c231a3fb5a2ab395fffad" />
+			<file filename="Launcher.dll" hash="b2943cf96797033598dfbebdcd053f40" />
+			<file filename="Launcher.exe" hash="23dc04104bc9bd3ef55c485c4ea6fcc0" />
+			<file filename="Launcher.pdb" hash="5edd199be4ad639c88151a6577112cf1" />
 			<file filename="Launcher.runtimeconfig.json" hash="6cc5992b5f24e3ff259ff61441f0bce9" />
 			<file filename="launcher_settings.json" hash="bc2ff606f218250b36b0ab0cf3b77944" />
 			<file filename="libtheorafile.dll" hash="20cb361c6d30bc815f16483ee0729024" />
 			<file filename="Microsoft.ML.OnnxRuntime.dll" hash="d283dbdf6531948f5ec265a195896923" />
-			<file filename="MP3Sharp.dll" hash="0ec944fb2193a0c37ac429573283de65" />
-			<file filename="MP3Sharp.pdb" hash="f6cd66f1a1eb25227a000d535566ebeb" />
+			<file filename="MP3Sharp.dll" hash="a026d1f282c11bae7ac3ea4f39409bc8" />
+			<file filename="MP3Sharp.pdb" hash="3d1699b99ab2c4d80b275699e271ed32" />
 			<file filename="SDL3.dll" hash="df33c94a9bdc9a2d484f2405e289e6d6" />
 			<file filename="SixLabors.ImageSharp.dll" hash="81fb18a837f65e1813859411064e3f0c" />
 			<file filename="zlib.dll" hash="12180b59e1828516e42f801d25e48968" />
